@@ -1,4 +1,6 @@
-export const PATH = {
+const PATH = {
   public: './public/',
-  js: './js/'
+  js: './js/',
 };
+
+export default PATH;
