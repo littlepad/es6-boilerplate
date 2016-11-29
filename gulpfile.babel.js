@@ -1,8 +1,8 @@
 const gulp = require('gulp');
-const PATH = require('./gulp/config');
-const { js } = require('./gulp/browserify');
+const PATH = require('./gulp/config').default;
+const js = require('./gulp/browserify').default;
 const { lint, devLint } = require('./gulp/eslint');
-const { jsTest } = require('./gulp/mocha');
+const jsTest = require('./gulp/mocha').default;
 
 gulp.task('js', () => js());
 gulp.task('lint', () => lint());

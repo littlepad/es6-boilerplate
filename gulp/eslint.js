@@ -1,5 +1,5 @@
 const gulp = require('gulp');
-const PATH = require('./config');
+const PATH = require('./config').default;
 const eslint = require('gulp-eslint');
 
 export function lint() {
