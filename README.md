@@ -6,7 +6,7 @@ boilerplate for es6 development.
 
 ### development
 
-js + eslint + watch
+browserify + eslint + watch
 
 ```
 $ gulp
@@ -20,7 +20,7 @@ eslint
 $ gulp lint
 ```
 
-### development js lint
+### dev js lint
 
 lint for task files.
 
