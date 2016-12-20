@@ -1,5 +1,5 @@
-const assert = require('power-assert');
-const { isAndroid } = require('../module/UserAgent');
+import assert from 'power-assert';
+import { isAndroid } from '../module/UserAgent';
 
 describe('UserAgent.isAndroid()', () => {
   it('ユーザエージェントがAndroidの場合、trueを返す', () => {

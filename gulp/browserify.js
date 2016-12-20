@@ -1,10 +1,10 @@
-const gulp = require('gulp');
-const PATH = require('./config').default;
-const browserify = require('browserify');
-const source = require('vinyl-source-stream');
-const babelify = require('babelify');
-const buffer = require('vinyl-buffer');
-const uglify = require('gulp-uglify');
+import gulp from 'gulp';
+import browserify from 'browserify';
+import source from 'vinyl-source-stream';
+import babelify from 'babelify';
+import buffer from 'vinyl-buffer';
+import uglify from 'gulp-uglify';
+import PATH from './config';
 
 export default function js() {
   browserify({
