@@ -1,6 +1,6 @@
 # es6-boilerplate
 
-boilerplate for es6 development.
+babel + browserify + eslint
 
 ## Gulp Tasks
 
