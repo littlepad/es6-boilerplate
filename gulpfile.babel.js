@@ -1,6 +1,6 @@
 import gulp from 'gulp';
 import PATH from './gulp/config';
-import js from './gulp/browserify';
+import js from './gulp/webpack';
 import { lint, devLint } from './gulp/eslint';
 import jsTest from './gulp/mocha';
 
